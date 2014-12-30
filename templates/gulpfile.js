@@ -61,7 +61,7 @@ gulp.task('browser-sync', ['dev'], function() {
   });
 });
 gulp.task('serve', ['browser-sync'], function() {
-  watch(['index.html', 'index.js', 'index.css', 'src/**/*'], function() {
+  watch(['index.html', 'src/**/*'], function() {
     runSequence('dev', browserSync.reload);
   });
 });
