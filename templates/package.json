@@ -1,0 +1,38 @@
+{
+  "name": "<%= appName %>",
+  "version": "<%= appVersion %>",
+  "description": "<%= appDescription %>",
+  "homepage": "https://<%= gitService %>/<%= gitUsername %>/<%= appName %>",
+  "author": {
+    "name": "<%= authorName %>",
+    "email": "<%= authorEmail %>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://<%= gitService %>/<%= gitUsername %>/<%= appName %>.git"
+  },
+  "bugs": {
+    "url": "https://<%= gitService %>/<%= gitUsername %>/<%= appName %>/issues"
+  },
+  "licenses": [{
+    "type": "<%= appLicense %>",
+    "url": "https://<%= gitService %>/<%= gitUsername %>/<%= appName %>/blob/master/LICENSE"
+  }],
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^1.7.0",
+    "css-loader": "^0.9.0",
+    "del": "^1.1.1",
+    "file-loader": "^0.8.1",
+    "gulp": "^3.8.10",
+    "gulp-util": "^3.0.1",
+    "gulp-watch": "^3.0.0",
+    "run-sequence": "^1.0.2",
+    "style-loader": "^0.8.2",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.4.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

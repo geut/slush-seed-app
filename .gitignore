@@ -1,0 +1,6 @@
+node_modules/
+temp
+*.log
+.idea
+slush-seed-app.sublime-project
+slush-seed-app.sublime-workspace
