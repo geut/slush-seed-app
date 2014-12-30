@@ -1,11 +1,11 @@
 {
     "name": "slush-seed-app",
     "description": "A slush generator to scaffold a seed app and using webpack",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "homepage": "https://github.com/geut/slush-seed-app",
     "author": {
         "name": "geut",
-        "email": "geut@gmail.com"
+        "email": "geut.studio@gmail.com"
     },
     "repository": {
         "type": "git",
