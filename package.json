@@ -1,6 +1,6 @@
 {
     "name": "slush-seed-app",
-    "description": "A slush generator to scaffold a seed app and using webpack",
+    "description": "A slush generator to scaffold a webpack'ed seed app.",
     "version": "0.2.2",
     "homepage": "https://github.com/geut/slush-seed-app",
     "author": {
