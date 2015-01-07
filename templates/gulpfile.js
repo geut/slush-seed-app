@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 
 /** Clean Task **/
 gulp.task('clean', function(cb) {
-  del('dist', cb);
+  del('./dist/*', cb);
 });
 
 /** Production Build Task **/
